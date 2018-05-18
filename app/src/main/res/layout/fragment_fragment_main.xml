@@ -1,247 +1,253 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.darkdeymon.ceub_potosi.Fragments.FragmentMain">
-
-    <LinearLayout
-        android:orientation="vertical"
+    android:layout_height="match_parent">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        tools:context="com.darkdeymon.ceub_potosi.Fragments.FragmentMain">
 
         <LinearLayout
-            android:id="@+id/hotelesin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
+            android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_hotel"
-                android:tint="@color/strip1"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/hotelesin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                android:layout_height="80dp"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_hotel"
+                    android:tint="@color/strip1"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Hoteles" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de los hoteles" />
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hoteles" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de los hoteles" />
+                </LinearLayout>
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
 
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-
-        <LinearLayout
-            android:id="@+id/restaurantesin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_comida"
-                android:tint="@color/strip2"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/restaurantesin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                android:layout_height="80dp"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_comida"
+                    android:tint="@color/strip2"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Restaurantes" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de los restaurantes  " />
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Restaurantes" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de los restaurantes  " />
+                </LinearLayout>
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
 
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-
-        <LinearLayout
-            android:id="@+id/centrossaludin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_medico"
-                android:tint="@color/strip1"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/centrossaludin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                android:layout_height="80dp"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_medico"
+                    android:tint="@color/strip1"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Centros de Salud" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de los Centros de salud  " />
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Centros de Salud" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de los Centros de salud  " />
+                </LinearLayout>
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
 
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-
-        <LinearLayout
-            android:id="@+id/bancosin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_banco"
-                android:tint="@color/strip2"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/bancosin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                android:layout_height="80dp"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_banco"
+                    android:tint="@color/strip2"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Bancos" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de bancos" />
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bancos" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de bancos" />
+                </LinearLayout>
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
 
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-
-        <LinearLayout
-            android:id="@+id/turismoin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_turismo"
-                android:tint="@color/strip1"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/turismoin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
+                android:layout_height="80dp"
+                android:clipToPadding="false">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_turismo"
+                    android:tint="@color/strip1"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Atractivos Turisticos" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de atractivos" />
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Atractivos Turisticos" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de atractivos" />
+                </LinearLayout>
+
             </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
 
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-
-        <LinearLayout
-            android:id="@+id/entretenimientoin"
-            android:clickable="true"
-            android:focusable="true"
-            android:background="?android:selectableItemBackground"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:clipToPadding="false">
-
-            <ImageView
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_ico_disco"
-                android:tint="@color/strip2"/>
             <LinearLayout
-                android:layout_marginLeft="7dp"
-                android:orientation="vertical"
+                android:id="@+id/entretenimientoin"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?android:selectableItemBackground"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:textSize="25sp"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Entretenimiento" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Presione para ver una lista de lugares de entretenimiento" />
-            </LinearLayout>
+                android:layout_height="80dp"
+                android:clipToPadding="false">
 
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_ico_disco"
+                    android:tint="@color/strip2"/>
+                <LinearLayout
+                    android:layout_marginLeft="7dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Entretenimiento" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Presione para ver una lista de lugares de entretenimiento" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent" />
         </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent" />
-    </LinearLayout>
-</FrameLayout>
+    </FrameLayout>
+</ScrollView>
