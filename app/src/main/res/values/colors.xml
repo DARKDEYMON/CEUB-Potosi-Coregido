@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00897B</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="hueso">#F5F5DC</color>
+    <color name="strip1">#FF9800</color>
+    <color name="strip2">#536DFE</color>
+</resources>

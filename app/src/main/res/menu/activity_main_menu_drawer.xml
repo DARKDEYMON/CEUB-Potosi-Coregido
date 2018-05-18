@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Página Principal"
+            android:checked="true"/>
+        <item
+            android:id="@+id/hoteles"
+            android:icon="@drawable/ic_ico_hotel"
+            android:title="Mapa de Hoteles" />
+        <item
+            android:id="@+id/restaurantes"
+            android:icon="@drawable/ic_ico_comida"
+            android:title="Mapa de Restaurantes" />
+        <item
+            android:id="@+id/salud"
+            android:icon="@drawable/ic_ico_medico"
+            android:title="Mapa de Centros de salud" />
+        <item
+            android:id="@+id/finacieras"
+            android:icon="@drawable/ic_ico_banco"
+            android:title="Mapa de Bancos" />
+        <item
+            android:id="@+id/turismo"
+            android:icon="@drawable/ic_ico_turismo"
+            android:title="Mapa de Atractivos turisticos" />
+        <item
+            android:id="@+id/entretenimiento"
+            android:icon="@drawable/ic_ico_disco"
+            android:title="Mapa de Entretenimiento" />
+        <item
+            android:id="@+id/lugaresevento"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Lugares del Evento" />
+    </group>
+
+    <!--
+    <item android:title="Varios">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Cronograma" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+</menu>
