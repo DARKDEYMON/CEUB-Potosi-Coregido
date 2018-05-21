@@ -1,104 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
+<ScrollView
     android:layout_height="match_parent"
-    android:layout_marginTop="5dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    tools:context=".ProgramaInaguracionActivity">
-    <TextView
-        android:textSize="15sp"
-        android:textStyle="bold|italic"
-        android:textAlignment="center"
-        android:text="PROGRAMA  INAUGURACION XII CONGRESO DE UNVIERSIDADES"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <TextView
+        android:layout_height="match_parent"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="10dp"
-        android:text="1.-  Himno Nacional"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_marginRight="10dp"
+        tools:context=".ProgramaInaguracionActivity">
+        <TextView
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"
+            android:text="PROGRAMA DE INAUGURACION XIII CONGRESO DE UNIVERSIDADES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="2.- Palabras de Bienvenida a cargo del Vicerrector Subrogante Abog. Adrián Montoya Laura"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="1.- Himno Nacional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="3.-Himno a Potosí "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="2.- Palabras de Bienvenida a cargo del Vicerrector Subrogante Abog. Adrián Montoya Laura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="4.- Palabras de circunstancia a cargo del Secretario Ejecutivo de la Comité Ejecutivo de la Universidad Boliviana CEUB Dr. Lucio Álvarez"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="3.- Himno a Potosí "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="5.- Himno Universitario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="4.- Palabras de circunstancia a cargo del Secretario Ejecutivo de la Comité Ejecutivo de la Universidad Boliviana CEUB Dr. Lucio Álvarez"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="6.- Momento poético “A ti querida Universidad” Liliana Leniz Marca"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="5.- Himno Universitario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="7.-Palabras de circunstancia del Ejecutivo del Confederación Universitaria de Docentes CUD."
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="6.- Momento poético “A ti querida Universidad” Liliana Leniz Marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="8.- Expresión Cultural de bienvenida"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="7.-Palabras de circunstancia del Ejecutivo del Confederación Universitaria de Docentes CUD."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="9.- Palabras del Secretario ejecutivo de Confederación Universitaria Boliviana CUB"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="8.- Expresión Cultural de bienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="10.- Participación del Coro Universitario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="9.- Palabras del Secretario ejecutivo de Confederación Universitaria Boliviana CUB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="11.- Solemne Inauguración del  XIII Congreso de Universidades de Bolivia a cargo del magnífico Señor Rector de la Universidad Autónoma Tomas Frías de Potosí Abog. Juan Justo Roberto Bohórquez Ayala"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="10.- Participación del Coro Universitario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="10dp"
-        android:text="12.- Cierre acto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="11.- Solemne Inauguración del  XIII Congreso de Universidades de Bolivia a cargo del magnífico Señor Rector de la Universidad Autónoma Tomas Frías de Potosí Abog. Juan Justo Roberto Bohórquez Ayala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-</LinearLayout>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="12.- Cierre acto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -50,7 +50,7 @@ public class AdapterRestaurantes extends BaseAdapter {
         final Restaurantes re =aRestaurantes.get(position);
         ImageView i = (ImageView) view.findViewById(R.id.image);
         Log.e("Aqui",re.getImagen().toString());
-        Picasso.with(context).load(re.getImagen().toString()).into(i);
+        Picasso.with(context).load(re.getImagen().toString()).placeholder(R.drawable.ic_load_black_24dp).error(R.drawable.ic_error_black_24dp).into(i);
 
         ((TextView)view.findViewById(R.id.nombre)).setText(re.getNombre());
         ((TextView)view.findViewById(R.id.telefono)).setText("Telefono: "+re.getTelefono());

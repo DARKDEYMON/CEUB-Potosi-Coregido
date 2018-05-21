@@ -55,7 +55,7 @@ public class AdapterTurismo extends BaseAdapter {
         ((TextView)view.findViewById(R.id.nombre)).setText(tu.getNombre());
         ((TextView)view.findViewById(R.id.calle)).setText("Calle: "+tu.getCalle());
         ImageView i = (ImageView) view.findViewById(R.id.image);
-        Picasso.with(context).load(tu.getImagen().toString()).into(i);
+        Picasso.with(context).load(tu.getImagen().toString()).placeholder(R.drawable.ic_load_black_24dp).error(R.drawable.ic_error_black_24dp).into(i);
         /*
         Picasso.with(context).load(tu.getImagen().toString()).into(new Target() {
             @Override

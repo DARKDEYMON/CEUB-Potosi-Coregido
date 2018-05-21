@@ -181,7 +181,7 @@
             android:background="@color/strip1"
             android:textSize="18sp"
             android:textStyle="bold|italic"
-            android:text="Miércoles 23 y 24 De Mayo"
+            android:text="Miércoles 23 y Jueves 24 De Mayo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -219,32 +219,7 @@
 
         <TextView
             android:textStyle="italic"
-            android:text="Actividad: Comisión De Relaciones Internacionales"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textStyle="italic"
-            android:text="Lugar: Edificio Carrera De Economía"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <View
-            android:layout_margin="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/colorAccent"/>
-
-        <TextView
-            android:textStyle="italic"
-            android:textAlignment="textEnd"
-            android:text="Horas: Toda La Jornada Trabajo De Comisiones"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:textStyle="italic"
-            android:text="Actividad: Comisión De Investigación Y Extensión"
+            android:text="Actividad: Comisión De Relaciones Internacionales y Comisión De Investigación Y Extensión"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
