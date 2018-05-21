@@ -19,12 +19,12 @@
             android:layout_height="wrap_content"
             android:text="Nombre" />
         <TextView
-            android:id="@+id/zona"
+            android:id="@+id/telefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="telefono" />
         <TextView
-            android:id="@+id/telefono"
+            android:id="@+id/direccion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="direccion" />

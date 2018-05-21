@@ -16,7 +16,7 @@ public class CentrosSalud {
     }
 
     public String getNombre() {
-        return nombre;
+        return nombre.toUpperCase();
     }
 
     public void setNombre(String nombre) {

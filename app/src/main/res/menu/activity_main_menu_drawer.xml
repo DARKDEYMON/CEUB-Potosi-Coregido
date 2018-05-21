@@ -39,18 +39,16 @@
             android:title="Lugares del Evento" />
     </group>
 
-    <!--
     <item android:title="Varios">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Cronograma" />
+                android:id="@+id/programa"
+                android:icon="@drawable/ic_program_black_24dp"
+                android:title="Programa de Inaguración" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/cronograma"
+                android:icon="@drawable/ic_ico_cronograma"
+                android:title="Cronograma" />
         </menu>
     </item>
-    -->
 </menu>

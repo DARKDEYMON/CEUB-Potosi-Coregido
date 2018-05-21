@@ -123,9 +123,13 @@ public class MainMenu extends AppCompatActivity implements NavigationView.OnNavi
             FragmentManager fr = getSupportFragmentManager();
             fr.popBackStack(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
             fr.beginTransaction().replace(R.id.contenedor, new FragmentMapsLugaresEvento()).commit();
-        } /*else if (id == R.id.nav_send) {
-
-        }*/
+        } else if (id == R.id.programa) {
+            Intent i = new Intent(MainMenu.this,ProgramaInaguracionActivity.class);
+            startActivity(i);
+        } else if (id == R.id.cronograma){
+            Intent i = new Intent(MainMenu.this,CronogramaActivity.class);
+            startActivity(i);
+        }
         return true;
     }
 }

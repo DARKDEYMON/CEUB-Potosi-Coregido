@@ -16,7 +16,7 @@ public class Entretenimiento {
     }
 
     public String getNonbre() {
-        return nonbre;
+        return nonbre.toUpperCase();
     }
 
     public void setNonbre(String nonbre) {

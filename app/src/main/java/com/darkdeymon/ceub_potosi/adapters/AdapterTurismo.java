@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -47,13 +48,15 @@ public class AdapterTurismo extends BaseAdapter {
         LayoutInflater layout = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layout.inflate(R.layout.adapter_item_turismo,parent,false);
 
-        final LinearLayout layoutbase = view.findViewById(R.id.lineaprinsipal);
+        //final LinearLayout layoutbase = view.findViewById(R.id.lineaprinsipal);
 
         Turismo tu = aTurismo.get(position);
 
         ((TextView)view.findViewById(R.id.nombre)).setText(tu.getNombre());
         ((TextView)view.findViewById(R.id.calle)).setText("Calle: "+tu.getCalle());
-
+        ImageView i = (ImageView) view.findViewById(R.id.image);
+        Picasso.with(context).load(tu.getImagen().toString()).into(i);
+        /*
         Picasso.with(context).load(tu.getImagen().toString()).into(new Target() {
             @Override
             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
@@ -70,7 +73,7 @@ public class AdapterTurismo extends BaseAdapter {
 
             }
         });
-
+        */
         return view;
     }
 }

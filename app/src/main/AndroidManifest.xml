@@ -17,6 +17,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
         <activity
             android:name=".MainMenu"
             android:label="@string/app_name"
@@ -27,7 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.darkdeymon.ceub_potosi.MainActivityPresentation"></activity>
+        <activity android:name=".MainActivityPresentation" />
+        <activity android:name=".ProgramaInaguracionActivity" />
+        <activity android:name=".CronogramaActivity"></activity>
     </application>
 
 </manifest>

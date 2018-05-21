@@ -22,7 +22,7 @@ public class EntretenimientoData {
             entretenimiento.add(new Entretenimiento("Killa","Av. Universitaria","Karaoke Discoteca",-19.577764f,-65.76585f));
             entretenimiento.add(new Entretenimiento("Venus","Av. Universitaria","Karaoke Discoteca",-19.583606f,-65.759285f));
             entretenimiento.add(new Entretenimiento("Alternativo","Av. Arce","Karaoke Discoteca",-19.580501f,-65.755586f));
-            entretenimiento.add(new Entretenimiento("El encanto","chayanta","Karaoke Discoteca",-19.586458f,-65.755183f));
+            entretenimiento.add(new Entretenimiento("El encanto","Chayanta","Karaoke Discoteca",-19.586458f,-65.755183f));
             entretenimiento.add(new Entretenimiento("Babel","Murillo","Karaoke Discoteca",-19.576723f,-65.765448f));
             entretenimiento.add(new Entretenimiento("Abnesia","Italia","Karaoke Discoteca",-19.580657f,-65.766198f));
             entretenimiento.add(new Entretenimiento("Babilon","saavedra","Discoteca",-19.572967f,-65.759191f));

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -49,13 +50,12 @@ public class AdapterHoteles extends BaseAdapter {
         View view = layout.inflate(R.layout.adapter_item_hoteles,parent,false);
 
         Hoteles ho =aHoteles.get(position);
-        final LinearLayout layoutbase = view.findViewById(R.id.lineaprinsipal);
+        //final LinearLayout layoutbase = view.findViewById(R.id.lineaprinsipal);
 
 
-        //ImageView i = (ImageView) view.findViewById(R.id.image);
-        //Log.e("Aqui",ho.getImagen().toString());
-        //Picasso.with(context).load(ho.getImagen().toString()).into(i);
-
+        ImageView i = (ImageView) view.findViewById(R.id.image);
+        Picasso.with(context).load(ho.getImagen().toString()).into(i);
+        /*
         Picasso.with(context).load(ho.getImagen().toString()).into(new Target() {
             @Override
             public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
@@ -72,7 +72,7 @@ public class AdapterHoteles extends BaseAdapter {
 
             }
         });
-
+        */
         ((TextView)view.findViewById(R.id.nombre)).setText(ho.getNombre());
         ((TextView)view.findViewById(R.id.telefono)).setText(ho.getTelefono());
         return view;

@@ -47,7 +47,8 @@ public class AdapterCentroSalud extends BaseAdapter {
         final CentrosSalud cs = aCentroSalud.get(position);
 
         ((TextView)view.findViewById(R.id.nombre)).setText(cs.getNombre());
-        ((TextView)view.findViewById(R.id.zona)).setText(cs.getZona());
+        ((TextView)view.findViewById(R.id.direccion)).setText("Dirección: "+cs.getZona());
+        ((TextView)view.findViewById(R.id.telefono)).setText("Telefono: "+cs.getTelefono());
         ((TextView)view.findViewById(R.id.nombre)).setText(cs.getNombre());
         ((Button)view.findViewById(R.id.llevame)).setOnClickListener(new View.OnClickListener() {
             @Override
